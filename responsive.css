@@ -1,0 +1,107 @@
+@media (max-width:63.9375em){ 
+.header {
+    padding: 2rem 3%;
+}
+
+    .content-home1 {
+        display: block;
+        text-align: center;
+        padding-top: 13rem;
+    }
+    .content-home1 h1 {
+        line-height: 1;
+    }
+    .navbar {
+        visibility: hidden;
+    }
+    .service {
+        padding: 2rem 5%;
+    }
+
+    .content h3 {
+        font-size: 1.5rem;
+    }
+    .product-header {
+        font-size: 3rem;
+    }
+    .card__wrap {
+        margin-left: 3rem
+    }
+
+    .collection {
+        display: block;
+    }
+    .price-collection span{
+       margin-bottom: 4rem;
+    }
+
+    .user {
+        display: block;
+    }
+
+    .client-inner::after {
+        content: "";
+        position: absolute;
+        left: 30px;
+        bottom: -16px;
+        border-top: 3px solid currentColor;
+        border-left: 3px solid transparent;
+        border: none;
+    }
+
+    .collection-container{
+
+        flex-wrap: wrap;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .box-img-sneaker {
+        width: 100%;
+    }
+    .card__wrap {
+        margin-left: 1.5rem;
+    }
+
+    .box-new {
+        width: 72%;
+        
+    }
+    .card {
+        width: 28rem;
+    }
+    .icons {
+        display: none;
+    }
+    .icon-mobile {
+        display: inline-block;
+    }
+    
+}
+
+/* mobile */
+
+@media (max-width:46.1875em){
+    .form h3 {
+        margin:2rem ;
+    }
+
+    .input-contact input {
+        width: 70%;
+    }
+
+    .client-review-inner {
+        text-align: center;
+    }
+}
+
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+@media (max-width:46.1875em){ 
+    
+} 
